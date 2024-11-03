@@ -12,6 +12,11 @@ const box = style({
 });
 
 const bottomBtn = style({
+  width: "100%",
+  padding: "12px",
+});
+
+const bottomBtnThx = style({
   position: "fixed",
   zIndex: 2,
   width: "100%",
@@ -77,6 +82,7 @@ const checkMark = style({
 
 export const appSt = {
   bottomBtn,
+  bottomBtnThx,
   container,
   box,
   productsTitle,
