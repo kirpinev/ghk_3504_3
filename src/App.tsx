@@ -195,7 +195,7 @@ export const App = () => {
                 className={appSt.checkMark}
               />
             )}
-            <img src={lime} alt="" style={{ width: "80%" }} />
+            <img src={lime} alt="" style={{ width: "99%" }} />
           </div>
           <div
             className={appSt.gift}

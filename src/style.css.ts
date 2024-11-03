@@ -51,8 +51,6 @@ const gifts = style({
   display: "flex",
   flexWrap: "wrap",
   gap: "0.5rem",
-  width: "100%",
-  maxWidth: "375px",
 });
 
 const gift = style({
@@ -66,7 +64,7 @@ const gift = style({
   justifyContent: "center",
   flex: 1,
   flexBasis: "30%",
-  height: "4rem",
+  minHeight: "4rem",
   cursor: "pointer",
   position: "relative",
 });
